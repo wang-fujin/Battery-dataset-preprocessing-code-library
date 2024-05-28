@@ -13,3 +13,9 @@ The code is designed to facilitate easy access to battery data and prepare it fo
 因此，开发了这个代码库来填补这一空白，并为研究人员和从业者提供一个方便的工具。
 
 In the field of battery health management, there are numerous large-scale publicly available battery datasets. However, there is often a lack of corresponding code for reading and preprocessing these datasets. Therefore, this code library was developed to address this gap and provide a convenient tool for researchers and practitioners working with battery data.
+
+## 3. 数据集（Datasets）
+### 3.1 XJTU Battery Datasets：[https://zenodo.org/records/10963339](https://zenodo.org/records/10963339)
+### 3.2 MIT Datasets: [https://data.matr.io/1/projects/5c48dd2bc625d700019f3204](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
+### 3.3 华中科技大学电池数据集: [https://data.mendeley.com/datasets/nsc7hnsg4s/2](https://data.mendeley.com/datasets/nsc7hnsg4s/2)
+### 3.4 同济大学电池数据集: [https://zenodo.org/records/6405084](https://zenodo.org/records/6405084)
