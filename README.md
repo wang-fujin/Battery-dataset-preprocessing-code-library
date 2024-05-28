@@ -16,6 +16,8 @@ In the field of battery health management, there are numerous large-scale public
 
 ## 3. 数据集（Datasets）
 ### 3.1 XJTU Battery Datasets：[https://zenodo.org/records/10963339](https://zenodo.org/records/10963339)
+![xjtu battery dataset.png](https://github.com/wang-fujin/Battery-dataset-preprocessing-code-library/blob/main/xjtu%20battery%20dataset.png)
+
 ### 3.2 MIT Datasets: [https://data.matr.io/1/projects/5c48dd2bc625d700019f3204](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
 ### 3.3 华中科技大学电池数据集: [https://data.mendeley.com/datasets/nsc7hnsg4s/2](https://data.mendeley.com/datasets/nsc7hnsg4s/2)
 ### 3.4 同济大学电池数据集: [https://zenodo.org/records/6405084](https://zenodo.org/records/6405084)
