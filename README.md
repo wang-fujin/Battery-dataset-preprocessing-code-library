@@ -26,6 +26,8 @@ In the field of battery health management, there are numerous large-scale public
 ## 4.引用（Citation）
 如果您在您的论文或项目中使用了本代码库，请引用我们的论文或者该仓库：
 
+If you use this code library in your paper or project, please cite our paper or this repository:
+
 论文链接：[https://www.nature.com/articles/s41467-024-48779-z](https://www.nature.com/articles/s41467-024-48779-z)
 
 论文引用格式
