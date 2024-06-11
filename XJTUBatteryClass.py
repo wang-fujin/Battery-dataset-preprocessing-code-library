@@ -21,6 +21,27 @@ from scipy.io import loadmat
 from scipy import interpolate
 import os
 
+def interpolate_resample(resample=True, num_points=128):
+    '''
+    插值重采样装饰器,如果resample为True，那么就进行插值重采样，点数为num_points,默认为128；
+    否则就不进行重采样
+    :param resample: bool: 是否进行重采样
+    :param num_points: int: 重采样的点数
+    :return:
+    '''
+    def decorator(func):
+        @functools.wraps(func)
+        def wrapper(self,*args, **kwargs):
+            data = func(self,*args, **kwargs)
+            if resample:
+                x = np.linspace(0, 1, data.shape[0])
+                f1 = interpolate.interp1d(x, data, kind='linear')
+                new_x = np.linspace(0, 1, num_points)
+                data = f1(new_x)
+            return data
+        return wrapper
+    return decorator
+
 
 class Battery:
     def __init__(self,path):
