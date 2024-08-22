@@ -101,7 +101,7 @@ class BatchBattery:
         :return: DataFrame
         '''
         cycle_df = self.get_one_battery_one_cycle(cell_num,cycle_num)
-        cycle_df = cycle_df[cycle_df['current (A)'] > -1e-3]
+        cycle_df = cycle_df[cycle_df['current (A)'] > -1e-1]  #Modified the lower bound for bettery CCCV picking.
         index = cycle_df.index
         # 判断index是否连续。如果index分段连续，则取第一段index
         diff = np.diff(index)
