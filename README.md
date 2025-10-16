@@ -26,7 +26,12 @@ https://github.com/wang-fujin/XJTU-Battery-Dataset-Papers-Summary
 ### 3.2 MIT Datasets: [https://data.matr.io/1/projects/5c48dd2bc625d700019f3204](https://data.matr.io/1/projects/5c48dd2bc625d700019f3204)
 ### 3.3 华中科技大学电池数据集: [https://data.mendeley.com/datasets/nsc7hnsg4s/2](https://data.mendeley.com/datasets/nsc7hnsg4s/2)
 ### 3.4 同济大学电池数据集: [https://zenodo.org/records/6405084](https://zenodo.org/records/6405084)
-### 3.5 Continuously updating...
+### 3.5 CALCE电池数据集：[https://calce.umd.edu/battery-data](https://calce.umd.edu/battery-data)
+
+### 3.6 RWTH电池数据集：[https://publications.rwth-aachen.de/record/818642](https://publications.rwth-aachen.de/record/818642)
+
+### 3.7 ......
+
 
 ## 4.引用（Citation）
 如果您在您的论文或项目中使用了本代码库，请引用我们的论文或者该仓库：
