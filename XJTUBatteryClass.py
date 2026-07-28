@@ -172,10 +172,15 @@ class Battery:
         '''
         value = self.get_partial_value(cycle=cycle, variable=variable, stage=1)
         voltage = self.get_partial_value(cycle=cycle, variable='voltage_V', stage=1)
+        #在实际应用过程中，发现CV阶段有时的电压会小于4.199，所以需要和电流大于3.9取交集，保证取到的值都是CC阶段的值
+        current = self.get_partial_value(cycle=cycle, variable='current_A', stage=1)
+        index2 = np.where(current >= 3.9)[0]
         if voltage_range is None:
-            index = np.where(voltage <= 4.199)[0]
+            index = np.where(voltage <= 4.199 )[0] 
+            index = np.intersect1d(index,index2)
         else:
             index = np.where((voltage >= voltage_range[0]) & (voltage <= voltage_range[1]))[0]
+            index = np.intersect1d(index,index2)
         value = value[index]
         return value
 
